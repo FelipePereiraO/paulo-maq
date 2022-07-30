@@ -1,0 +1,53 @@
+.imgLoja{
+    height: 45vh;
+    border-radius: 8px;
+    left: auto;
+    margin: 25px;
+
+}
+
+.loja1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.loja2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.endereco{
+    padding: 50px;
+    height: 160px;
+    background: white;
+    border-radius: 8px;
+    
+}
+
+.endereco p{
+    color: #00b0f0;
+    font-weight: bold;
+}
+
+.hrText{
+    margin-top: 5px;
+    height: 3px;
+    border: 0;
+    background-image: linear-gradient(to right, transparent, #00b0f0, transparent);  
+  }
+
+  
+@media screen and (max-width: 768px) {
+    .imgLoja{
+        height: 28vh;
+    }
+    .endereco{
+        height: 130px;
+        font-size: 10px;
+        padding: 25px;
+        margin: 5px;
+    }
+}

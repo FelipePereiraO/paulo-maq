@@ -1,0 +1,62 @@
+.form-control{
+	width: 45%;
+	margin: 0 auto;
+	padding: 16px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+textarea{
+    height: 100px;
+    width: 45%;
+}
+input:focus, textarea:focus{
+    outline-color: #00b0f0;
+}
+.containe{
+    display: flex;
+    
+}
+
+form{
+    width: 60%;
+
+}
+
+.maquina{
+    height: 25vh;
+}
+
+.btn{
+    background: #284B8C;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    height: 39px;
+    width: 40%;
+    
+}
+.btn:hover{
+    background: #123475;
+}
+
+@media screen and (max-width: 768px) {
+    .maquina{
+        visibility: hidden;
+    }
+    form{
+        width: 100%;
+    }
+    .containe{
+        display: contents;
+    }
+    .form-control{
+        width: 70%;
+    }
+    .btn{
+        width: 65%;
+    }
+    
+}
