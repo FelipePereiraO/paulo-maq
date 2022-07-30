@@ -38,6 +38,41 @@ form{
     width: 40%;
     
 }
+.alert{
+    background: #1de9b6;
+    width: 45%;
+	margin: 10px auto;
+    height: 50px;
+    padding: 13px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    animation: go-back 3s;
+    
+}
+
+.alertError{
+    background: #ff3d00;
+    width: 45%;
+	margin: 10px auto;
+    height: 50px;
+    padding: 13px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    animation: go-back 3s;
+    
+}
+
+@keyframes go-back {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
 .btn:hover{
     background: #123475;
 }
@@ -57,6 +92,11 @@ form{
     }
     .btn{
         width: 65%;
+    }
+
+    .alert{
+        width: 90%;
+        
     }
     
 }

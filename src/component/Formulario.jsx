@@ -1,18 +1,21 @@
-import React, {form} from "react";
+import React, {form, useState} from "react";
 import emailjs from "emailjs-com"
 import "../css/formulario.css" 
 import mq from "../img/Maquinas.png"
 
 function Formulario(){
-
+    const [alert, setAlert] = useState("");
+    const [menssage, setMenssage] = useState("");
     const sendEmail = (e) => {
         e.preventDefault();
     
         emailjs.sendForm('gmailMenssage', 'template_ek7vrc9', e.target, '0S_x6uExmKAl6Fzi_')
           .then((result) => {
-              alert(result.text);
+              setAlert("alert")
+              setMenssage("Mensagem enviada com sucesso!")
           }, (error) => {
-            alert(error.text);
+            setAlert("alert")
+            setMenssage("Mensagem não enviada, tente novamente!")
           });
           e.target.reset()
       };
@@ -22,13 +25,16 @@ function Formulario(){
         <div className="containe" >
             <form onSubmit={sendEmail}>
                 <div className="row">
-                    <div className="">
+                    <div className={alert}>
+                        <p className="aviso">{menssage}</p>
+                    </div>
+                    <div>
                         <input type="text" className="form-control" required placeholder="Nome" name="name"/>
                     </div>
-                    <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
+                    <div>
                         <input type="email" className="form-control" required placeholder="Email" name="email"/>
                     </div>
-                    <div className="col-lg-8 col-sm-12 form-group pt-1 mx-auto">
+                    <div>
                         <textarea type="textarea" className="form-control" required placeholder="Mensagem" name="message"/>
                     </div>
 
