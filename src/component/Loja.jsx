@@ -2,6 +2,7 @@ import React from "react";
 import l1 from '../img/lojas/m1.png'
 import l2 from '../img/lojas/n2.png'
 import '../css/lojas.css'
+import Maps from "./Maps";
 
 function Loja(){
     return(
@@ -13,6 +14,7 @@ function Loja(){
                     <p>Rua Cardeal Jean N° 112</p>
                     <hr className="hrText"/>
                 </div>
+                <Maps/>
                 <img className="imgLoja" src={l1}/>
             </div>
              <hr className='columTwo'/>
