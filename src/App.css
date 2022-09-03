@@ -44,25 +44,20 @@ h2{
 }
 .inicio{
   position: relative;
-  height: px;
 }
 .inicioDesc{
-  position: absolute;
-  top: 0;
-  align-items: center;
-  bottom: 0;
+  background-image: url("img/pexels-adrienne-andersen-2254065.jpg");
+  height: 700px;
+  width: 100%;
+  background-size: 2000px;
 }
 
 .desc{
   margin-top: 50px;
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(0.8);
+
 }
 .numero{
-  -webkit-transform: scale(1.3);
-  -ms-transform: scale(1.3);
-  transform: scale(0.7);
+
 }
 .App-logo {
   height: 40vmin;
@@ -71,21 +66,20 @@ h2{
 
 
 @media screen and (max-width: 768px) {
-  .img{
-    height: 400px;
-  }
+
   .desc{
-    margin-top: 90px;
-    height: 18vh;
+    height: 15vh;
     
   }
   .numero{
-    height: 8vh;
+    height:6vh;
   }
 
   .inicioDesc{
-    left: -18px;
-
+    background-image: url("img/pexels-adrienne-andersen-2254065.jpg");
+    height: 400px;
+    width: 100%;
+    background-size: 600px;
   }
   
 }
@@ -111,8 +105,6 @@ h2{
 }
 
 footer{
-
-  font-weight: bold;
   color: white;
   margin-top: 50px;
   height: 100px;

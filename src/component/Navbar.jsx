@@ -4,6 +4,7 @@ import '../css/navbar.css'
 import logo from '../img/logo/logo3.png'
 import logoN from '../img/logo/logo4.png'
 import contato from '../img/Contato.png'
+import wa from '../img/WhatsApp.png'
 
 function Navbar(){
 
@@ -45,6 +46,8 @@ function Navbar(){
                 <li className="nav__item"><a href='#comentarios' className='nav_link'>O QUE DIZEM</a></li>
                 <li className="nav__item"><a href='#lojas' className='nav_link'>LOJAS</a></li>
                 <li className="nav__item"><a href='#contato' className='nav_link'>CONTATO</a></li>
+                <li className="nav__item"><a href='http://api.whatsapp.com/send?1=pt_BR&phone=557191504449' target="blank" className='nav_link'><img className='whatsapp' src={wa}/></a></li>
+
             
             </ul>
             <div onClick={navToggler} className={toggleIcon}>

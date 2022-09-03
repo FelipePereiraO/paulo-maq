@@ -79,6 +79,11 @@ a{
     display: none;
 }
 
+.whatsapp{
+    height: 40px; 
+   }
+   
+
 @media screen and (max-width: 768px) {
     .nav_toggler{
         display: block;

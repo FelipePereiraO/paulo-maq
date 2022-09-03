@@ -15,13 +15,12 @@ function App() {
     <div className="App" id='inicio'>
         <Navbar/>
         <div className='inicio' >
-          <div className='bloco'></div>
-          <img className='img' src={img}/>
           <div className='bloco2'></div>
           <div className='inicioDesc'>
             <img className='desc' src={description}/>  
             <img className='numero' src={numero}/>
           </div>
+          <div className='bloco2'></div>
         </div>
         <div className='colum'></div>
         <h2 className='marca'>MARCAS</h2>

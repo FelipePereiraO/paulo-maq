@@ -1,8 +1,11 @@
-.imgLoja{
-    height: 45vh;
+iframe{
     border-radius: 8px;
     left: auto;
     margin: 25px;
+    width: 600px;
+    height:450px;
+    border-radius:8px;
+    border: 0
 
 }
 
@@ -41,8 +44,9 @@
 
   
 @media screen and (max-width: 768px) {
-    .imgLoja{
-        height: 28vh;
+    iframe{
+        width: 200px;
+        height:350px;
     }
     .endereco{
         height: 130px;

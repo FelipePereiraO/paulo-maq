@@ -8,7 +8,7 @@ import consul from '../img/marcas/consul.png'
 import ge from '../img/marcas/ge.png'
 import lg from '../img/marcas/lg.png'
 import samsung from '../img/marcas/samsung.png'
-
+import midea from '../img/marcas/midea.png'
 
 
 
@@ -50,7 +50,7 @@ function Carrosel() {
                 <img className='marcas' src={electrolux}/>
                 <img className='marcas' src={consul}/>
                 <img className='marcas' src={lg}/>
-                <img className='marcas' src={ge}/>
+                <img className='marcas' src={midea}/>
                 <img className='marcas' src={samsung}/>
                 <img className='marcas' src={colormaq}/>
             </Carousel>            

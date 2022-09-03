@@ -35,6 +35,9 @@ function Formulario(){
                         <input type="email" className="form-control" required placeholder="Email" name="email"/>
                     </div>
                     <div>
+                        <input type="number" className="form-control" required placeholder="Telefone/Celular" name="telephone"/>
+                    </div>
+                    <div>
                         <textarea type="textarea" className="form-control" required placeholder="Mensagem" name="message"/>
                     </div>
 
