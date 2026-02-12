@@ -1,6 +1,3 @@
-import React from "react";
-import l1 from '../img/lojas/m1.png'
-import l2 from '../img/lojas/n2.png'
 import '../css/lojas.css'
 
 function Loja(){

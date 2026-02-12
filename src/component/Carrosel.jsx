@@ -1,11 +1,10 @@
-import React, { useEffect, useRef } from 'react';
+import { useRef } from 'react';
 import '../css/carrosel.css'
 import Carousel from "react-elastic-carousel";
 import brastemp from '../img/marcas/brastemp.png'
 import colormaq from '../img/marcas/colormaq.png'
 import electrolux from '../img/marcas/electrolux.png'
 import consul from '../img/marcas/consul.png'
-import ge from '../img/marcas/ge.png'
 import lg from '../img/marcas/lg.png'
 import samsung from '../img/marcas/samsung.png'
 import midea from '../img/marcas/midea.png'
@@ -13,7 +12,6 @@ import midea from '../img/marcas/midea.png'
 
 
 
-import Item from "./Item";
 
 
 
@@ -46,13 +44,13 @@ function Carrosel() {
                                         carouselRef?.current?.goTo(0);
                                     }, 4000); // same time
                                 }}>
-                <img className='marcas' src={brastemp}/>
-                <img className='marcas' src={electrolux}/>
-                <img className='marcas' src={consul}/>
-                <img className='marcas' src={lg}/>
-                <img className='marcas' src={midea}/>
-                <img className='marcas' src={samsung}/>
-                <img className='marcas' src={colormaq}/>
+                <img className='marcas' alt="logo brastemp" src={brastemp}/>
+                <img className='marcas' alt="logo electrolux" src={electrolux}/>
+                <img className='marcas' alt="logo consul" src={consul}/>
+                <img className='marcas' alt="logo lg" src={lg}/>
+                <img className='marcas' alt="logo midea" src={midea}/>
+                <img className='marcas' alt="logo samsung" src={samsung}/>
+                <img className='marcas' alt="logo colormaq" src={colormaq}/>
             </Carousel>            
         </div>
 

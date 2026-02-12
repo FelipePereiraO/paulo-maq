@@ -1,4 +1,4 @@
-import React, {form, useState} from "react";
+import React, { useState} from "react";
 import emailjs from "emailjs-com"
 import "../css/formulario.css" 
 import mq from "../img/Maquinas.png"
@@ -44,7 +44,7 @@ function Formulario(){
                 </div>
                 <input type="submit" className="btn" />
             </form>
-            <img className="maquina" src={mq}/>
+            <img className="maquina" alt="maquinas" src={mq}/>
         </div>
     )
 

@@ -11,23 +11,23 @@ function Comentarios(){
     return(
         <div className="lista">
             <div className="border">
-                <img className="coments" src={com1}/>
+                <img className="coments" alt="comentario" src={com1}/>
             </div>
             <div className="border left">
-                <img className="coments" src={com2}/>
+                <img className="coments" alt="comentario" src={com2}/>
             </div>
             <div className="border">
-                <img className="coments" src={com3}/>
+                <img className="coments" alt="comentario" src={com3}/>
             </div>
             <div className="border">
-                <img className="coments" src={com4}/>
+                <img className="coments" alt="comentario" src={com4}/>
             </div>
             
             <div className="border">
-                <img className="coments" src={com5}/>
+                <img className="coments" alt="comentario" src={com5}/>
             </div>
             <div className="border">
-                <img className="coments" src={com6}/>
+                <img className="coments" alt="comentario" src={com6}/>
             </div>
         </div>
     )

@@ -1,8 +1,5 @@
-import logo from './logo.svg';
-
 import './App.css';
 import Navbar from './component/Navbar';
-import img from './img/pexels-adrienne-andersen-2254065.jpg'
 import description from './img/description2.png'
 import Carrosel from './component/Carrosel';
 import Comentarios from './component/Comentarios';
@@ -17,8 +14,8 @@ function App() {
         <div className='inicio' >
           <div className='bloco2'></div>
           <div className='inicioDesc'>
-            <img className='desc' src={description}/>  
-            <img className='numero' src={numero}/>
+            <img className='desc' alt="desc" src={description}/>  
+            <img className='numero' alt="telefone" src={numero}/>
           </div>
           <div className='bloco2'></div>
         </div>
