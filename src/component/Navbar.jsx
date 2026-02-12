@@ -36,16 +36,17 @@ function Navbar(){
     }
     return(
         <nav className={navFix}>
-            <a href='#' className='nav__brand'>
+            <a href='/' className='nav__brand'>
                 <img  className='logo' alt="logo" src={logoNav}/>
 
             </a>
+            {/* eslint-disable-next-line jsx-a11y/anchor-is-valid */}
             <ul className={nav}>
                 <li className="nav__item"><a href='#inicio' className='nav_link'>INÍCIO</a></li>
                 <li className="nav__item"><a href='#comentarios' className='nav_link'>O QUE DIZEM</a></li>
                 <li className="nav__item"><a href='#lojas' className='nav_link'>LOJAS</a></li>
                 <li className="nav__item"><a href='#contato' className='nav_link'>CONTATO</a></li>
-                <li className="nav__item"><a href='http://api.whatsapp.com/send?1=pt_BR&phone=557191504449' target="blank" className='nav_link'><img className='whatsapp' alt="whatsapp" src={wa}/></a></li>
+                <li className="nav__item"><a href='https://wa.me/557191504449' target="blank" className='nav_link'><img className='whatsapp' alt="whatsapp" src={wa}/></a></li>
 
             
             </ul>
