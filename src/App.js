@@ -48,9 +48,10 @@ function App() {
             </a>
           </div>
           <div>
-            <p className='dev'>
-              Developed by <a href='https://github.com/FelipePereiraO' >Felipe Pereira</a> 
-            </p>
+            <div className="d-flex justify-content-center fpoweb-div">
+                <p >Copyright © 2024 Todos os direitos reservados by <a
+                        className="fpoweb" href="https://fpoweb.com.br/">FPOWEB</a></p>
+            </div>
           </div>      
         </footer>
     </div>
